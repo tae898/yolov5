@@ -27,6 +27,27 @@ You don't have to build the docker image. You can just pull it from [the docker 
 
 This repo contains the weight file `yolov5s.pt` so that docker does not need an Internet access to download the weights.
 
+## How to make a client
+
+You have to write a client in python. Below is an example.
+
+```python
+import jsonpickle
+
+image_path = './image.jpg'
+
+with open(image_path, "rb") as stream:
+    binary_image = stream.read()
+
+data = {"image": binary_image}
+
+to_send = jsonpickle.encode(to_send)
+response = requests.post(url_yolo, json=to_send)
+response = jsonpickle.decode(response.text)
+results = response["yolo_results"]
+```
+I know that this is not the most standard way to do such a thing but this was the eaiset way for me somehow. `jsonpickle` works really well with different types of python objects (e.g., `dict`, `numpy`, binary string, etc.)
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.

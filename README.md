@@ -25,6 +25,10 @@ Checkout the [Dockerfile](Dockerfile).
 
 You don't have to build the docker image. You can just pull it from [the docker hub](https://hub.docker.com/repository/docker/tae898/yolov5).
 
+```
+docker pull tae898/yolov5
+```
+
 This repo contains the weight file `yolov5s.pt` so that docker does not need an Internet access to download the weights.
 
 ## How to make a client

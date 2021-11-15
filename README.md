@@ -45,7 +45,7 @@ with open(image_path, "rb") as stream:
 
 data = {"image": binary_image}
 
-to_send = jsonpickle.encode(to_send)
+to_send = jsonpickle.encode(data)
 response = requests.post(url_yolo, json=to_send)
 response = jsonpickle.decode(response.text)
 results = response["yolo_results"]

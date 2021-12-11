@@ -52,6 +52,11 @@ results = response["yolo_results"]
 ```
 I know that this is not the most standard way to do such a thing but this was the eaiset way for me somehow. `jsonpickle` works really well with different types of python objects (e.g., `dict`, `numpy`, binary string, etc.)
 
+
+## Troubleshooting
+
+The best way to find and solve your problems is to see in the github issue tab. If you can't find what you want, feel free to raise an issue. We are pretty responsive.
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.

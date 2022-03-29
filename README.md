@@ -73,4 +73,4 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Authors
 
-* [Taewoon Kim](https://taewoonkim.com/) 
+* [Taewoon Kim](https://taewoon.kim/) 

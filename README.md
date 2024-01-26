@@ -1,5 +1,7 @@
 # YOLO v5 RESTful API server
 
+[![DOI](https://zenodo.org/badge/427334013.svg)](https://zenodo.org/badge/latestdoi/427334013)
+
 This repo is forked form https://github.com/ultralytics/yolov5.
 It's nothing but a RESTful API server that is dockerized.
 
@@ -57,9 +59,6 @@ I know that this is not the most standard way to do such a thing but this was th
 
 The best way to find and solve your problems is to see in the github issue tab. If you can't find what you want, feel free to raise an issue. We are pretty responsive.
 
-## Cite our work
-
-[![DOI](https://zenodo.org/badge/427334013.svg)](https://zenodo.org/badge/latestdoi/427334013)
 
 ## Contributing
 
